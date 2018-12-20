@@ -3,7 +3,7 @@ require "json"
 require "open-uri"
 require "nokogiri"
 
-class SlackBot
+class GemDlCountSlackBot
   attr_reader :slack_uri, :gem_uri
   def initialize(slack_uri:, gem_uri:)
     @slack_uri = slack_uri
