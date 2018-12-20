@@ -8,4 +8,4 @@ GemDlCountSlackBot.new(
   slack_uri: "xxx",
   gem_uri: "https://rubygems.org/gems/xxx"
 ).post_slack
-'''
+```
